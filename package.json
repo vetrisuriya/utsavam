@@ -36,6 +36,7 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
+    "typegen": "next typegen",
     "icons": "node scripts/generate-icons.mjs"
   },
   "dependencies": {

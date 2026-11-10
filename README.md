@@ -81,6 +81,7 @@ On Windows PowerShell, if script execution is restricted, use `npm.cmd run dev`.
 | `npm start` | Run the production build |
 | `npm run lint` | Lint with ESLint |
 | `npm run typecheck` | Type-check with TypeScript |
+| `npm run typegen` | Generate Next.js route types (`LayoutProps`, `PageProps`, typed links) without a build |
 | `npm run icons` | Regenerate PNG icons and the favicon from `public/logo-mark.svg` |
 
 ## Environment variables

@@ -32,6 +32,11 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      # Route typings (LayoutProps, PageProps, typed Link hrefs) are generated
+      # artefacts, so they must exist before `tsc` runs on a fresh checkout.
+      - name: Generate route types
+        run: npm run typegen
+
       - name: Typecheck
         run: npm run typecheck
 
