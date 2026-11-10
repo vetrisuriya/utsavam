@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/vetrisuriya/utsavam/security/advisories/new
+    about: Report a vulnerability privately. Do not open a public issue.
+  - name: Questions and ideas
+    url: https://github.com/vetrisuriya/utsavam/discussions
+    about: Ask a question or start a broader conversation about the project.
+  - name: About Utsavam
+    url: https://github.com/vetrisuriya/utsavam#readme
+    about: Project background, the private link format and credits.

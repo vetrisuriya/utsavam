@@ -1,0 +1,40 @@
+name: Feature request
+description: Suggest an improvement to the app, the content or the developer experience.
+title: "[Feature]: "
+labels: ["enhancement", "needs triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the situation, not only the proposed solution.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Celebrations and content
+        - Card design
+        - Form and link generation
+        - Sharing
+        - Accessibility
+        - SEO, AEO or GEO
+        - Documentation
+        - Developer experience
+        - Other
+    validations:
+      required: true

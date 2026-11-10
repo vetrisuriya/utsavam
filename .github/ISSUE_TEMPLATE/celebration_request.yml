@@ -1,0 +1,64 @@
+name: Celebration request
+description: Suggest a festival, observance or family function to add.
+title: "[Celebration]: "
+labels: ["celebration", "needs triage"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Celebration name
+      placeholder: Bihu
+    validations:
+      required: true
+  - type: input
+    id: native
+    attributes:
+      label: Native script (if applicable)
+      placeholder: বিহু
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Hindu festival
+        - Sikh or Jain observance
+        - Christmas or New Year
+        - Ramzan, Eid or Muharram
+        - Life moment or Hindu samskara
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: about
+    attributes:
+      label: How is it celebrated?
+      description: A short, accurate description of the occasion and the region or community it belongs to.
+    validations:
+      required: true
+  - type: textarea
+    id: fields
+    attributes:
+      label: What should the card ask for?
+      description: Names, date, venue, message, muhurtham, RSVP, or anything specific to this occasion.
+      placeholder: |
+        - Sender and recipient names
+        - A personal message
+        - Date of the celebration
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: When is it observed?
+      placeholder: Mid-April, or the month of Bohag
+    validations:
+      required: false
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources or reviewers
+      description: Links or names that can help verify the description. Optional but appreciated.
+    validations:
+      required: false
